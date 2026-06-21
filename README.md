@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 ![Mauro's GitHub stats](./profile/stats.svg)
-
+![Mauro's GitHub stats](./profile/top-langs.svg)
 
 <!--
 **mberlanda/mberlanda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
