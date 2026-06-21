@@ -33,6 +33,14 @@ jobs:
           token: ${{ secrets.GRS_PAT }}
           debug_fetch: "true"
 
+      - name: Generate language history card
+        uses: mberlanda/github-readme-stats-action@v2.2
+        with:
+          card: lang-history
+          options: "username=${{ github.repository_owner }}&role=OWNER,ORGANIZATION_MEMBER&langs_count=7&hide=HTML,CSS"
+          path: profile/lang-history.svg
+          token: ${{ secrets.GRS_PAT }}
+
       - name: Generate pin card
         uses: mberlanda/github-readme-stats-action@v2.1
         with:
