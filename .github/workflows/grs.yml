@@ -28,7 +28,13 @@ jobs:
         uses: mberlanda/github-readme-stats-action@feat/debug-fetch-logging
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&role=OWNER,ORGANIZATION_MEMBER&hide=HTML,CSS
+          options: >-
+            username=${{ github.repository_owner }}
+            &layout=compact
+            &langs_count=8
+            &role=OWNER,ORGANIZATION_MEMBER
+            &hide=HTML,CSS
+            &lang_multiplier=Jupyter Notebook:0.1
           path: profile/top-langs.svg
           token: ${{ secrets.GRS_PAT }}
           debug_fetch: "true"
