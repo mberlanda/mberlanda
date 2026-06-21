@@ -1,0 +1,84 @@
+
+      <svg
+        width="500"
+        height="311"
+        viewBox="0 0 500 311"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="499"
+          fill="#fffefe"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Languages Over Years</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          <line x1="45" y1="5" x2="480" y2="5" stroke="#434d58" stroke-width="0.5" opacity="0.3" stroke-dasharray="3,3" /><text x="40" y="9" text-anchor="end" font-size="9" fill="#434d58" opacity="0.7">100%</text><line x1="45" y1="87.5" x2="480" y2="87.5" stroke="#434d58" stroke-width="0.5" opacity="0.3" stroke-dasharray="3,3" /><text x="40" y="91.5" text-anchor="end" font-size="9" fill="#434d58" opacity="0.7">50%</text><line x1="45" y1="170" x2="480" y2="170" stroke="#434d58" stroke-width="0.5" opacity="0.3" /><text x="40" y="174" text-anchor="end" font-size="9" fill="#434d58" opacity="0.7">0%</text><rect x="45" y="5" width="34" height="160" fill="#701516" /><rect x="45" y="165" width="34" height="3" fill="#f1e05a" /><rect x="45" y="168" width="34" height="2" fill="#858585" /><rect x="85" y="5" width="34" height="51" fill="#701516" /><rect x="85" y="56" width="34" height="20" fill="#f1e05a" /><rect x="85" y="76" width="34" height="6" fill="#3572A5" /><rect x="85" y="82" width="34" height="1" fill="#0298c3" /><rect x="85" y="83" width="34" height="64" fill="#5e5086" /><rect x="85" y="147" width="34" height="23" fill="#858585" /><rect x="125" y="5" width="34" height="71" fill="#701516" /><rect x="125" y="76" width="34" height="1" fill="#f1e05a" /><rect x="125" y="77" width="34" height="72" fill="#0298c3" /><rect x="125" y="149" width="34" height="3" fill="#3178c6" /><rect x="125" y="152" width="34" height="18" fill="#858585" /><rect x="165" y="5" width="34" height="65" fill="#701516" /><rect x="165" y="70" width="34" height="5" fill="#f1e05a" /><rect x="165" y="75" width="34" height="81" fill="#0298c3" /><rect x="165" y="156" width="34" height="14" fill="#858585" /><rect x="205" y="5" width="34" height="25" fill="#701516" /><rect x="205" y="30" width="34" height="49" fill="#f1e05a" /><rect x="205" y="79" width="34" height="42" fill="#3572A5" /><rect x="205" y="121" width="34" height="49" fill="#858585" /><rect x="245" y="5" width="34" height="161" fill="#DA5B0B" /><rect x="245" y="166" width="34" height="4" fill="#858585" /><rect x="285" y="5" width="34" height="165" fill="#701516" /><rect x="325" y="5" width="34" height="5" fill="#f1e05a" /><rect x="325" y="10" width="34" height="100" fill="#3178c6" /><rect x="325" y="110" width="34" height="39" fill="#5e5086" /><rect x="325" y="149" width="34" height="21" fill="#858585" /><rect x="405" y="5" width="34" height="72" fill="#f1e05a" /><rect x="405" y="77" width="34" height="82" fill="#3572A5" /><rect x="405" y="159" width="34" height="6" fill="#3178c6" /><rect x="405" y="165" width="34" height="5" fill="#858585" /><rect x="445" y="5" width="34" height="72" fill="#701516" /><rect x="445" y="77" width="34" height="22" fill="#f1e05a" /><rect x="445" y="99" width="34" height="63" fill="#3178c6" /><rect x="445" y="162" width="34" height="8" fill="#858585" /><text x="62" y="184" text-anchor="middle" font-size="9" fill="#434d58">'15</text><text x="102" y="184" text-anchor="middle" font-size="9" fill="#434d58">'16</text><text x="142" y="184" text-anchor="middle" font-size="9" fill="#434d58">'17</text><text x="182" y="184" text-anchor="middle" font-size="9" fill="#434d58">'18</text><text x="222" y="184" text-anchor="middle" font-size="9" fill="#434d58">'19</text><text x="262" y="184" text-anchor="middle" font-size="9" fill="#434d58">'20</text><text x="302" y="184" text-anchor="middle" font-size="9" fill="#434d58">'21</text><text x="342" y="184" text-anchor="middle" font-size="9" fill="#434d58">'23</text><text x="382" y="184" text-anchor="middle" font-size="9" fill="#434d58">'24</text><text x="422" y="184" text-anchor="middle" font-size="9" fill="#434d58">'25</text><text x="462" y="184" text-anchor="middle" font-size="9" fill="#434d58">'26</text><rect x="25" y="194" width="8" height="8" rx="2" fill="#DA5B0B" /><text x="37" y="202" font-size="10" fill="#434d58">Jupyter Notebook</text><rect x="137.5" y="194" width="8" height="8" rx="2" fill="#701516" /><text x="149.5" y="202" font-size="10" fill="#434d58">Ruby</text><rect x="250" y="194" width="8" height="8" rx="2" fill="#f1e05a" /><text x="262" y="202" font-size="10" fill="#434d58">JavaScript</text><rect x="362.5" y="194" width="8" height="8" rx="2" fill="#3572A5" /><text x="374.5" y="202" font-size="10" fill="#434d58">Python</text><rect x="25" y="216" width="8" height="8" rx="2" fill="#0298c3" /><text x="37" y="224" font-size="10" fill="#434d58">Perl</text><rect x="137.5" y="216" width="8" height="8" rx="2" fill="#3178c6" /><text x="149.5" y="224" font-size="10" fill="#434d58">TypeScript</text><rect x="250" y="216" width="8" height="8" rx="2" fill="#5e5086" /><text x="262" y="224" font-size="10" fill="#434d58">Haskell</text><rect x="362.5" y="216" width="8" height="8" rx="2" fill="#858585" /><text x="374.5" y="224" font-size="10" fill="#434d58">Other</text>
+        </g>
+      </svg>
+    
