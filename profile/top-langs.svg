@@ -205,6 +205,26 @@
           fill="#198CE7"
         />
       
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="235.69000000000005"
+          y="0"
+          width="17.86"
+          height="8"
+          fill="#dea584"
+        />
+      
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="243.55000000000007"
+          y="0"
+          width="16.44"
+          height="8"
+          fill="#198CE7"
+        />
+      
       
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)"><g transform="translate(0, 0)">

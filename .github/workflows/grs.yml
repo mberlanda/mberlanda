@@ -40,7 +40,14 @@ jobs:
           options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&role=OWNER,ORGANIZATION_MEMBER&hide=HTML,CSS&size_weight=0&count_weight=1&custom_title=Repo+distribution+by+language"
           path: profile/repo-count-by-lang.svg
           token: ${{ secrets.GRS_PAT }}
-          debug_fetch: "true"
+
+      - name: Generate language history card
+        uses: mberlanda/github-readme-stats-action@v2.2
+        with:
+          card: lang-history
+          options: "username=${{ github.repository_owner }}&role=OWNER,ORGANIZATION_MEMBER&langs_count=7&hide=HTML,CSS"
+          path: profile/lang-history.svg
+          token: ${{ secrets.GRS_PAT }}
 
       - name: Generate pin card
         uses: mberlanda/github-readme-stats-action@v2.1
