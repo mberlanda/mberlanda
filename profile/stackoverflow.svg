@@ -1,8 +1,8 @@
 
       <svg
         width="400"
-        height="187"
-        viewBox="0 0 400 187"
+        height="255"
+        viewBox="0 0 400 255"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
@@ -78,31 +78,44 @@
           data-testid="main-card-body"
           transform="translate(0, 55)"
         >
-          
-    <g transform="translate(25, 0)">
-      <text x="2" y="12" font-size="11" fill="#434d58" opacity="0.7">Reputation</text>
-      <text x="2" y="34" font-size="20" font-weight="600" fill="#F48024">2.8k</text>
+          <g transform="translate(25, 0)"><g><defs>
+        <clipPath id="so-avatar">
+          <circle cx="22" cy="22" r="22" />
+        </clipPath>
+      </defs>
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX0BBQUFBQUFBQYGBQgIBwgICwoJCQoLEQwNDA0MERoQExAQExAaFxsWFRYbFykgHBwgKS8nJScvOTMzOUdER11dff/AABEIACwALAMBIgACEQEDIgH/xACAAAACAgIDAAAAAAAAAAAAAAAEBQIGAAcBAwgQAAEEAQMDAgQHAAAAAAAAAAECAwQRAAUSMQYTISJRFEFhcTNDcoGRscEBAAIDAQEAAAAAAAAAAAAAAAMEAQUGAgARAAEEAQMFAQEBAAAAAAAAAAEAAgMRBBIhMQUTMlFxQRSB/9oADAMBAAIRAxEAPwDyeg+rDUnaAQoVWBivbMku0ztHJ8ZWlustCtW8/E206aIKVDm+l6eWoqHJ2RaZrG6iv+BjFgoVR5Tg8PpnVZEQS0MjtKbK0Emt4HNZLS0iPMciTaaKHQFg/K+cDOyIMeWO1FvICaGXCDRcn4i12/IVRF02eSLuACiLG/Ke6XojmfBkODKeOV2LTd0MFUnaQMcS/h4l7nAqgCSj1Vu4usVPrakuqdbB2K4vBQW+tiG1dplzb/EpI0h1K2yH4+K7S6SyACdI1crP5szZcmR8bjoNUlwHGDSEqJBCSR74fFCVvoSoWKJrLrp0RiRKitqSKLgFfbLKJhJBQECVdyOpqXb5BGaHKitaCyzPjyRbZ7RQneFX5HixX3yhbH5movy3IxCVPgqTVgC+DmykCO91imC266lhqOULQFHYVpF1R4GR1ZpESQ82hAT6jx7bSrJ/jEQlcHG3OIWixZ448JvdDqAoVuq3GkZLnMklqnSg6Txz+pW7k02a9IT9nFV7q6VElajq70dttKHUxq2pCL2eD4GVmN+A3++PZWhOvdPu6wmUoXKKFN8jtp8bvF1R5vEDJppuvbEMNkccPaZIXdo9sk+2CltevjFY/JbAxgBEVOaKulkXDdOaZDgxv7jjvuCdtISbjuKQ8F0d8/oVl+0VdTIJJ/MBzXkQDvn6IVlwhrUhpKknyGSQfrWWkdAt+hDl8P8AUJnk1MTeA+pVvKa9NOql9STpO6gUuuJHnzZoKwnqN8qlS1A/L+0Yu6GSBLmn59lvz9zkuo/TJmJB8V/mHdvBft1ozN3kqJPIrqPkrmTla3dtLroPO43jCOsBlGc6wlKXGyABaReJ7Pvixbf6isrQPi8UtZAq1Flf/9k=" x="0" y="0" width="44" height="44" clip-path="url(#so-avatar)" /><a href="https://stackoverflow.com/users/5687152/mabe02" target="_blank" rel="noopener">
+        <text x="54" y="17" font-size="14" font-weight="600" fill="#2f80ed">mabe02</text>
+      </a>
+      <text x="54" y="34" font-size="11" fill="#434d58" opacity="0.6">Stack Overflow</text></g><line x1="0" y1="56" x2="350" y2="56" stroke="#434d58" stroke-width="0.5" opacity="0.15"/>
+    <g transform="translate(0, 64)">
+      <text x="2" y="11" font-size="10" fill="#434d58" opacity="0.6">Reputation</text>
+      <text x="2" y="34" font-size="22" font-weight="700" fill="#F48024">2.8k</text>
 
-      <text x="118.66666666666667" y="12" font-size="11" fill="#434d58" opacity="0.7">Answers</text>
-      <text x="118.66666666666667" y="34" font-size="20" font-weight="600" fill="#434d58">0</text>
+      <text x="118.66666666666667" y="11" font-size="10" fill="#434d58" opacity="0.6">Answers</text>
+      <text x="118.66666666666667" y="34" font-size="22" font-weight="700" fill="#434d58">110</text>
 
-      <text x="235.33333333333334" y="12" font-size="11" fill="#434d58" opacity="0.7">Questions</text>
-      <text x="235.33333333333334" y="34" font-size="20" font-weight="600" fill="#434d58">0</text>
-    </g><line x1="25" y1="48" x2="375" y2="48" stroke="#434d58" stroke-width="1" opacity="0.15"/>
-    <g transform="translate(25, 62)">
-      <text x="2" y="12" font-size="11" fill="#434d58" opacity="0.7">Badges</text>
-      <text x="2" y="34" font-size="16" font-weight="600" fill="#434d58">64</text>
+      <text x="235.33333333333334" y="11" font-size="10" fill="#434d58" opacity="0.6">Questions</text>
+      <text x="235.33333333333334" y="34" font-size="22" font-weight="700" fill="#434d58">21</text>
+    </g><line x1="0" y1="108" x2="350" y2="108" stroke="#434d58" stroke-width="0.5" opacity="0.15"/>
+    <g transform="translate(0, 118)">
+      <text x="2" y="11" font-size="10" fill="#434d58" opacity="0.6">Badges</text>
 
-      <circle cx="124.66666666666667" cy="22" r="8" fill="#FFCC01"/>
-      <text x="136.66666666666669" y="27" font-size="13" fill="#434d58">2</text>
+      <circle cx="78" cy="7" r="8" fill="#FFCC01"/>
+      <text x="90" y="12" font-size="13" fill="#434d58">2</text>
 
-      <circle cx="183" cy="22" r="8" fill="#9FA6AD"/>
-      <text x="195" y="27" font-size="13" fill="#434d58">23</text>
+      <circle cx="136.33333333333334" cy="7" r="8" fill="#9FA6AD"/>
+      <text x="148.33333333333334" y="12" font-size="13" fill="#434d58">23</text>
 
-      <circle cx="241.33333333333334" cy="22" r="8" fill="#AD8060"/>
-      <text x="253.33333333333334" y="27" font-size="13" fill="#434d58">39</text>
-    </g>
-    <text x="27" y="114" font-size="11" fill="#434d58" opacity="0.5">mabe02 · Stack Overflow</text>
+      <circle cx="194.66666666666669" cy="7" r="8" fill="#AD8060"/>
+      <text x="206.66666666666669" y="12" font-size="13" fill="#434d58">39</text>
+    </g><line x1="0" y1="144" x2="350" y2="144" stroke="#434d58" stroke-width="0.5" opacity="0.15"/>
+    <g transform="translate(0, 152)">
+      <text x="2" y="11" font-size="10" fill="#434d58" opacity="0.6">Votes Cast</text>
+      <text x="2" y="30" font-size="16" font-weight="600" fill="#434d58">55</text>
+
+      <text x="118.66666666666667" y="11" font-size="10" fill="#434d58" opacity="0.6">Profile Views</text>
+      <text x="118.66666666666667" y="30" font-size="16" font-weight="600" fill="#434d58">303</text>
+    </g></g>
         </g>
       </svg>
     
