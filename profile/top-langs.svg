@@ -132,7 +132,7 @@
           y="0"
           width="150.43"
           height="8"
-          fill="#701516"
+          fill="#DA5B0B"
         />
       
         <rect
@@ -142,7 +142,7 @@
           y="0"
           width="24.92"
           height="8"
-          fill="#f1e05a"
+          fill="#701516"
         />
       
         <rect
@@ -162,7 +162,7 @@
           y="0"
           width="16.42"
           height="8"
-          fill="#0298c3"
+          fill="#f1e05a"
         />
       
         <rect
@@ -172,7 +172,7 @@
           y="0"
           width="10.59"
           height="8"
-          fill="#3178c6"
+          fill="#0298c3"
         />
       
         <rect
@@ -182,27 +182,7 @@
           y="0"
           width="10.59"
           height="8"
-          fill="#DA5B0B"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="232.39999999999998"
-          y="0"
-          width="13.48"
-          height="8"
-          fill="#5e5086"
-        />
-      
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="245.87999999999997"
-          y="0"
-          width="14.11"
-          height="8"
-          fill="#00ADD8"
+          fill="#3178c6"
         />
       
         <rect
@@ -229,14 +209,14 @@
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#701516" />
+      <circle cx="5" cy="6" r="5" fill="#DA5B0B" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Jupyter Notebook 60.17%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
+      <circle cx="5" cy="6" r="5" fill="#701516" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
         Ruby 9.97%
       </text>

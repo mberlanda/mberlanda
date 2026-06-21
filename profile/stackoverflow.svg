@@ -1,0 +1,108 @@
+
+      <svg
+        width="400"
+        height="187"
+        viewBox="0 0 400 187"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="399"
+          fill="#fffefe"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Stack Overflow Stats</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          
+    <g transform="translate(25, 0)">
+      <text x="2" y="12" font-size="11" fill="#434d58" opacity="0.7">Reputation</text>
+      <text x="2" y="34" font-size="20" font-weight="600" fill="#F48024">2.8k</text>
+
+      <text x="118.66666666666667" y="12" font-size="11" fill="#434d58" opacity="0.7">Answers</text>
+      <text x="118.66666666666667" y="34" font-size="20" font-weight="600" fill="#434d58">0</text>
+
+      <text x="235.33333333333334" y="12" font-size="11" fill="#434d58" opacity="0.7">Questions</text>
+      <text x="235.33333333333334" y="34" font-size="20" font-weight="600" fill="#434d58">0</text>
+    </g><line x1="25" y1="48" x2="375" y2="48" stroke="#434d58" stroke-width="1" opacity="0.15"/>
+    <g transform="translate(25, 62)">
+      <text x="2" y="12" font-size="11" fill="#434d58" opacity="0.7">Badges</text>
+      <text x="2" y="34" font-size="16" font-weight="600" fill="#434d58">64</text>
+
+      <circle cx="124.66666666666667" cy="22" r="8" fill="#FFCC01"/>
+      <text x="136.66666666666669" y="27" font-size="13" fill="#434d58">2</text>
+
+      <circle cx="183" cy="22" r="8" fill="#9FA6AD"/>
+      <text x="195" y="27" font-size="13" fill="#434d58">23</text>
+
+      <circle cx="241.33333333333334" cy="22" r="8" fill="#AD8060"/>
+      <text x="253.33333333333334" y="27" font-size="13" fill="#434d58">39</text>
+    </g>
+    <text x="27" y="114" font-size="11" fill="#434d58" opacity="0.5">mabe02 · Stack Overflow</text>
+        </g>
+      </svg>
+    
