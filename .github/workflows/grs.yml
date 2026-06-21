@@ -22,6 +22,7 @@ jobs:
           options: username=${{ github.repository_owner }}&show_icons=true&role=OWNER,ORGANIZATION_MEMBER
           path: profile/stats.svg
           token: ${{ secrets.GRS_PAT }}
+          debug_fetch: "true"
 
       - name: Generate top languages card
         uses: mberlanda/github-readme-stats-action@feat/debug-fetch-logging
@@ -30,6 +31,7 @@ jobs:
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&role=OWNER,ORGANIZATION_MEMBER&hide=HTML,CSS
           path: profile/top-langs.svg
           token: ${{ secrets.GRS_PAT }}
+          debug_fetch: "true"
 
       - name: Generate pin card
         uses: mberlanda/github-readme-stats-action@feat/debug-fetch-logging
