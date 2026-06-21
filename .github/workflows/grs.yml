@@ -27,7 +27,7 @@ jobs:
         uses: mberlanda/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&role=OWNER,ORGANIZATION_MEMBER
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&role=OWNER,ORGANIZATION_MEMBER&hide=HTML,CSS
           path: profile/top-langs.svg
           token: ${{ secrets.GRS_PAT }}
 
