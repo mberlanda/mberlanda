@@ -41,6 +41,14 @@ jobs:
           path: profile/lang-history.svg
           token: ${{ secrets.GRS_PAT }}
 
+      - name: Generate Stack Overflow card
+        uses: mberlanda/github-readme-stats-action@feat/external-platform-cards
+        with:
+          card: stackoverflow
+          options: "user_id=5687152&site=stackoverflow"
+          path: profile/stackoverflow.svg
+          token: ${{ secrets.GRS_PAT }}
+
       - name: Generate pin card
         uses: mberlanda/github-readme-stats-action@v2.1
         with:
