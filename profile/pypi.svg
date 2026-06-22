@@ -1,0 +1,122 @@
+
+      <svg
+        width="300"
+        height="166"
+        viewBox="0 0 300 166"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+    .stagger { opacity: 0; animation: fadeInAnimation 0.3s ease-in-out forwards; }
+  
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="299"
+          fill="#fffefe"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <svg
+        class="icon"
+        x="0"
+        y="-13"
+        viewBox="0 0 16 16"
+        version="1.1"
+        width="16"
+        height="16"
+      >
+        <g transform="scale(.667)"><path fill="#3776AB" d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09z"/><path fill="#FFD43B" d="M9.75 23.82l-.9-.2-.73-.26-.59-.3-.45-.32-.34-.34-.25-.34-.16-.33-.1-.3-.04-.26-.02-.2.01-.13V15.5l.05-.63.13-.55.21-.46.26-.38.3-.31.33-.25.35-.19.35-.14.33-.1.3-.07.26-.04.21-.02H15.23l.69-.05.59-.14.5-.22.41-.27.33-.32.27-.35.2-.36.15-.37.1-.35.07-.32.04-.27.02-.21v-3.06h3.48l.21.03.28.07.32.12.35.18.36.26.36.36.35.46.32.59.28.73.21.88.14 1.05.05 1.23-.06 1.22-.16 1.04-.24.87-.32.71-.36.57-.4.44-.42.33-.42.24-.4.16-.36.1-.32.05-.24.01h-.16l-.06-.01H9.91v.83h5.83l.01 2.75.02.37-.05.34-.11.31-.17.28-.25.26-.31.23-.38.2-.44.18-.51.15-.58.12-.64.1-.71.06-.77.04-.84.02-1.27-.05zm6.3-1.98l.23-.33.08-.41-.08-.41-.23-.34-.33-.22-.41-.09-.41.09-.33.22-.23.34-.08.41.08.41.23.33.33.22.41.09.41-.09z"/></g>
+      </svg>
+    </g><g transform="translate(25, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >PyPI &#8212; mberlanda</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          <g transform="translate(25, 0)">
+        <text x="2" y="12" font-size="11" fill="#434d58" opacity="0.7">Profile</text>
+        <a href="https://pypi.org/user/mberlanda/" target="_blank" rel="noopener"><text x="2" y="36" font-size="13" fill="#434d58" opacity="0.9" text-decoration="underline">mberlanda</text></a>
+        <text x="85.33333333333333" y="12" font-size="11" fill="#434d58" opacity="0.7">Packages</text>
+        <text x="85.33333333333333" y="34" font-size="20" font-weight="600" fill="#434d58">1</text>
+        <text x="168.66666666666666" y="12" font-size="11" fill="#434d58" opacity="0.7">DL / month</text>
+        <text x="168.66666666666666" y="34" font-size="20" font-weight="600" fill="#434d58">0</text></g><line x1="25" y1="48" x2="275" y2="48" stroke="#434d58" stroke-width="1" opacity="0.15"/>
+    <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 56)">
+      <text x="2" y="13" font-size="11" fill="#434d58">quantik-core</text>
+      <text x="250" y="13" font-size="11" fill="#434d58" text-anchor="end">0.1.1</text>
+      
+    <svg width="180" x="0" y="20">
+      <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="180" height="8" fill="#fffefe"></rect>
+      <svg data-testid="lang-progress" width="2%">
+        <rect
+            height="8"
+            fill="#006DAD"
+            rx="5" ry="5" x="0" y="0"
+            class="lang-progress"
+            style="animation-delay: 450ms;"
+        />
+      </svg>
+    </svg>
+  
+    </g>
+        </g>
+      </svg>
+    

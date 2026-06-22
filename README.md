@@ -5,6 +5,13 @@
 ![Mauro's repo count by language](./profile/repo-count-by-lang.svg)
 ![Mauro's GitHub stats](./profile/lang-history.svg)
 
+## Open Source
+
+![Mauro's Stack Overflow stats](./profile/stackoverflow.svg)
+![Mauro's RubyGems stats](./profile/rubygems.svg)
+![Mauro's PyPI stats](./profile/pypi.svg)
+![Mauro's CPAN stats](./profile/cpan.svg)
+
 <!--
 **mberlanda/mberlanda** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

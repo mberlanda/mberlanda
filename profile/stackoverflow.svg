@@ -1,0 +1,126 @@
+
+      <svg
+        width="300"
+        height="209"
+        viewBox="0 0 300 209"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        role="img"
+        aria-labelledby="descId"
+      >
+        <title id="titleId"></title>
+        <desc id="descId"></desc>
+        <style>
+          .header {
+            font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+            fill: #2f80ed;
+            animation: fadeInAnimation 0.8s ease-in-out forwards;
+          }
+          @supports(-moz-appearance: auto) {
+            /* Selector detects Firefox */
+            .header { font-size: 15.5px; }
+          }
+          
+
+          
+      /* Animations */
+      @keyframes scaleInAnimation {
+        from {
+          transform: translate(-5px, 5px) scale(0);
+        }
+        to {
+          transform: translate(-5px, 5px) scale(1);
+        }
+      }
+      @keyframes fadeInAnimation {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+    
+          
+        </style>
+
+        
+
+        <rect
+          data-testid="card-bg"
+          x="0.5"
+          y="0.5"
+          rx="4.5"
+          height="99%"
+          stroke="#e4e2e2"
+          width="299"
+          fill="#fffefe"
+          stroke-opacity="1"
+        />
+
+        
+      <g
+        data-testid="card-title"
+        transform="translate(25, 35)"
+      >
+        <g transform="translate(0, 0)">
+      <svg
+        class="icon"
+        x="0"
+        y="-13"
+        viewBox="0 0 16 16"
+        version="1.1"
+        width="16"
+        height="16"
+      >
+        <g transform="scale(.667)"><path fill="#F48024" d="M15.725 0l-1.72 1.277 6.39 8.588 1.716-1.277L15.725 0zm-3.94 3.418l-1.369 1.644 8.225 6.85 1.369-1.644-8.225-6.85zm-3.15 4.465l-.905 1.94 9.702 4.517.904-1.94-9.701-4.517zm-1.85 4.86l-.44 2.093 10.473 2.201.44-2.092-10.473-2.203zM1.89 15.47V24h19.19v-8.53h-2.133v6.397H4.021v-6.396H1.89zm4.265 2.133v2.13h10.66v-2.13H6.154Z"/></g>
+      </svg>
+    </g><g transform="translate(25, 0)">
+      <text
+        x="0"
+        y="0"
+        class="header"
+        data-testid="header"
+      >Stack Overflow Stats</text>
+    </g>
+      </g>
+    
+
+        <g
+          data-testid="main-card-body"
+          transform="translate(0, 55)"
+        >
+          <g transform="translate(25, 0)"><g><defs>
+        <clipPath id="so-avatar">
+          <circle cx="22" cy="22" r="22" />
+        </clipPath>
+      </defs>
+      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX0BBQUFBQUFBQYGBQgIBwgICwoJCQoLEQwNDA0MERoQExAQExAaFxsWFRYbFykgHBwgKS8nJScvOTMzOUdER11dff/AABEIACwALAMBIgACEQEDIgH/xACAAAACAgIDAAAAAAAAAAAAAAAEBQIGAAcBAwgQAAEEAQMDAgQHAAAAAAAAAAECAwQRAAUSMQYTISJRFEFhcTNDcoGRscEBAAIDAQEAAAAAAAAAAAAAAAMEAQUGAgARAAEEAQMFAQEBAAAAAAAAAAEAAgMRBBIhMQUTMlFxQRSB/9oADAMBAAIRAxEAPwDyeg+rDUnaAQoVWBivbMku0ztHJ8ZWlustCtW8/E206aIKVDm+l6eWoqHJ2RaZrG6iv+BjFgoVR5Tg8PpnVZEQS0MjtKbK0Emt4HNZLS0iPMciTaaKHQFg/K+cDOyIMeWO1FvICaGXCDRcn4i12/IVRF02eSLuACiLG/Ke6XojmfBkODKeOV2LTd0MFUnaQMcS/h4l7nAqgCSj1Vu4usVPrakuqdbB2K4vBQW+tiG1dplzb/EpI0h1K2yH4+K7S6SyACdI1crP5szZcmR8bjoNUlwHGDSEqJBCSR74fFCVvoSoWKJrLrp0RiRKitqSKLgFfbLKJhJBQECVdyOpqXb5BGaHKitaCyzPjyRbZ7RQneFX5HixX3yhbH5movy3IxCVPgqTVgC+DmykCO91imC266lhqOULQFHYVpF1R4GR1ZpESQ82hAT6jx7bSrJ/jEQlcHG3OIWixZ448JvdDqAoVuq3GkZLnMklqnSg6Txz+pW7k02a9IT9nFV7q6VElajq70dttKHUxq2pCL2eD4GVmN+A3++PZWhOvdPu6wmUoXKKFN8jtp8bvF1R5vEDJppuvbEMNkccPaZIXdo9sk+2CltevjFY/JbAxgBEVOaKulkXDdOaZDgxv7jjvuCdtISbjuKQ8F0d8/oVl+0VdTIJJ/MBzXkQDvn6IVlwhrUhpKknyGSQfrWWkdAt+hDl8P8AUJnk1MTeA+pVvKa9NOql9STpO6gUuuJHnzZoKwnqN8qlS1A/L+0Yu6GSBLmn59lvz9zkuo/TJmJB8V/mHdvBft1ozN3kqJPIrqPkrmTla3dtLroPO43jCOsBlGc6wlKXGyABaReJ7Pvixbf6isrQPi8UtZAq1Flf/9k=" x="0" y="0" width="44" height="44" clip-path="url(#so-avatar)" /><a href="https://stackoverflow.com/users/5687152/mabe02" target="_blank" rel="noopener">
+        <text x="54" y="17" font-size="14" font-weight="600" fill="#2f80ed">mabe02</text>
+      </a>
+      <text x="54" y="34" font-size="11" fill="#434d58" opacity="0.6">Stack Overflow</text></g><line x1="0" y1="56" x2="250" y2="56" stroke="#434d58" stroke-width="0.5" opacity="0.15"/>
+    <g transform="translate(0, 64)">
+      <text x="2" y="11" font-size="10" fill="#434d58" opacity="0.6">Reputation</text>
+      <text x="2" y="34" font-size="22" font-weight="700" fill="#F48024">2.8k</text>
+
+      <text x="85.33333333333333" y="11" font-size="10" fill="#434d58" opacity="0.6">Answers</text>
+      <text x="85.33333333333333" y="34" font-size="22" font-weight="700" fill="#434d58">110</text>
+
+      <text x="168.66666666666666" y="11" font-size="10" fill="#434d58" opacity="0.6">Questions</text>
+      <text x="168.66666666666666" y="34" font-size="22" font-weight="700" fill="#434d58">21</text>
+    </g><line x1="0" y1="108" x2="250" y2="108" stroke="#434d58" stroke-width="0.5" opacity="0.15"/>
+    <g transform="translate(0, 118)">
+      <text x="2" y="11" font-size="10" fill="#434d58" opacity="0.6">Badges</text>
+
+      <circle cx="57.99999999999999" cy="7" r="8" fill="#FFCC01"/>
+      <text x="70" y="12" font-size="13" fill="#434d58">2</text>
+
+      <circle cx="99.66666666666667" cy="7" r="8" fill="#9FA6AD"/>
+      <text x="111.66666666666667" y="12" font-size="13" fill="#434d58">23</text>
+
+      <circle cx="141.33333333333334" cy="7" r="8" fill="#AD8060"/>
+      <text x="153.33333333333334" y="12" font-size="13" fill="#434d58">39</text>
+    </g></g>
+        </g>
+      </svg>
+    
