@@ -53,8 +53,32 @@ jobs:
         uses: mberlanda/github-readme-stats-action@feat/external-platform-cards
         with:
           card: stackoverflow
-          options: "user_id=5687152&site=stackoverflow"
+          options: "user_id=5687152&site=stackoverflow&card_width=300"
           path: profile/stackoverflow.svg
+          token: ${{ secrets.GRS_PAT }}
+
+      - name: Generate RubyGems card
+        uses: mberlanda/github-readme-stats-action@feat/external-platform-cards
+        with:
+          card: rubygems
+          options: "username=mberlanda&gems_count=5&card_width=300"
+          path: profile/rubygems.svg
+          token: ${{ secrets.GRS_PAT }}
+
+      - name: Generate PyPI card
+        uses: mberlanda/github-readme-stats-action@feat/external-platform-cards
+        with:
+          card: pypi
+          options: "username=mberlanda&packages_count=5&card_width=300"
+          path: profile/pypi.svg
+          token: ${{ secrets.GRS_PAT }}
+
+      - name: Generate CPAN card
+        uses: mberlanda/github-readme-stats-action@feat/external-platform-cards
+        with:
+          card: cpan
+          options: "username=KUPTA&distributions_count=5&card_width=300"
+          path: profile/cpan.svg
           token: ${{ secrets.GRS_PAT }}
 
       - name: Generate pin card
