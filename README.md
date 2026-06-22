@@ -4,6 +4,9 @@
 ![Mauro's GitHub stats](./profile/top-langs.svg)
 ![Mauro's repo count by language](./profile/repo-count-by-lang.svg)
 ![Mauro's GitHub stats](./profile/lang-history.svg)
+
+## Open Source
+
 ![Mauro's Stack Overflow stats](./profile/stackoverflow.svg)
 ![Mauro's RubyGems stats](./profile/rubygems.svg)
 ![Mauro's PyPI stats](./profile/pypi.svg)
