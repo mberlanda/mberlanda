@@ -98,10 +98,10 @@
         <text x="85.33333333333333" y="12" font-size="11" fill="#434d58" opacity="0.7">Packages</text>
         <text x="85.33333333333333" y="34" font-size="20" font-weight="600" fill="#434d58">1</text>
         <text x="168.66666666666666" y="12" font-size="11" fill="#434d58" opacity="0.7">DL / month</text>
-        <text x="168.66666666666666" y="34" font-size="20" font-weight="600" fill="#434d58">163</text></g><line x1="25" y1="48" x2="275" y2="48" stroke="#434d58" stroke-width="1" opacity="0.15"/>
+        <text x="168.66666666666666" y="34" font-size="20" font-weight="600" fill="#434d58">228</text></g><line x1="25" y1="48" x2="275" y2="48" stroke="#434d58" stroke-width="1" opacity="0.15"/>
     <g class="stagger" style="animation-delay: 450ms" transform="translate(25, 56)">
       <text x="2" y="13" font-size="11" fill="#434d58">quantik-core</text>
-      <text x="250" y="13" font-size="11" fill="#434d58" text-anchor="end">163/mo</text>
+      <text x="250" y="13" font-size="11" fill="#434d58" text-anchor="end">228/mo</text>
       
     <svg width="180" x="0" y="20">
       <rect data-testid="progress-background" rx="5" ry="5" x="0" y="0" width="180" height="8" fill="#fffefe"></rect>
