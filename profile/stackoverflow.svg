@@ -90,12 +90,7 @@
           data-testid="main-card-body"
           transform="translate(0, 55)"
         >
-          <g transform="translate(25, 0)"><g><defs>
-        <clipPath id="so-avatar">
-          <circle cx="22" cy="22" r="22" />
-        </clipPath>
-      </defs>
-      <image href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAUFBQUFBQUGBgUICAcICAsKCQkKCxEMDQwNDBEaEBMQEBMQGhcbFhUWGxcpIBwcICkvJyUnLzkzMzlHREddXX0BBQUFBQUFBQYGBQgIBwgICwoJCQoLEQwNDA0MERoQExAQExAaFxsWFRYbFykgHBwgKS8nJScvOTMzOUdER11dff/AABEIACwALAMBIgACEQEDIgH/xACAAAACAgIDAAAAAAAAAAAAAAAEBQIGAAcBAwgQAAEEAQMDAgQHAAAAAAAAAAECAwQRAAUSMQYTISJRFEFhcTNDcoGRscEBAAIDAQEAAAAAAAAAAAAAAAMEAQUGAgARAAEEAQMFAQEBAAAAAAAAAAEAAgMRBBIhMQUTMlFxQRSB/9oADAMBAAIRAxEAPwDyeg+rDUnaAQoVWBivbMku0ztHJ8ZWlustCtW8/E206aIKVDm+l6eWoqHJ2RaZrG6iv+BjFgoVR5Tg8PpnVZEQS0MjtKbK0Emt4HNZLS0iPMciTaaKHQFg/K+cDOyIMeWO1FvICaGXCDRcn4i12/IVRF02eSLuACiLG/Ke6XojmfBkODKeOV2LTd0MFUnaQMcS/h4l7nAqgCSj1Vu4usVPrakuqdbB2K4vBQW+tiG1dplzb/EpI0h1K2yH4+K7S6SyACdI1crP5szZcmR8bjoNUlwHGDSEqJBCSR74fFCVvoSoWKJrLrp0RiRKitqSKLgFfbLKJhJBQECVdyOpqXb5BGaHKitaCyzPjyRbZ7RQneFX5HixX3yhbH5movy3IxCVPgqTVgC+DmykCO91imC266lhqOULQFHYVpF1R4GR1ZpESQ82hAT6jx7bSrJ/jEQlcHG3OIWixZ448JvdDqAoVuq3GkZLnMklqnSg6Txz+pW7k02a9IT9nFV7q6VElajq70dttKHUxq2pCL2eD4GVmN+A3++PZWhOvdPu6wmUoXKKFN8jtp8bvF1R5vEDJppuvbEMNkccPaZIXdo9sk+2CltevjFY/JbAxgBEVOaKulkXDdOaZDgxv7jjvuCdtISbjuKQ8F0d8/oVl+0VdTIJJ/MBzXkQDvn6IVlwhrUhpKknyGSQfrWWkdAt+hDl8P8AUJnk1MTeA+pVvKa9NOql9STpO6gUuuJHnzZoKwnqN8qlS1A/L+0Yu6GSBLmn59lvz9zkuo/TJmJB8V/mHdvBft1ozN3kqJPIrqPkrmTla3dtLroPO43jCOsBlGc6wlKXGyABaReJ7Pvixbf6isrQPi8UtZAq1Flf/9k=" x="0" y="0" width="44" height="44" clip-path="url(#so-avatar)" /><a href="https://stackoverflow.com/users/5687152/mabe02" target="_blank" rel="noopener">
+          <g transform="translate(25, 0)"><g><circle cx="22" cy="22" r="22" fill="#F48024" opacity="0.85" /><text x="22" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#fffefe">M</text><a href="https://stackoverflow.com/users/5687152/mabe02" target="_blank" rel="noopener">
         <text x="54" y="17" font-size="14" font-weight="600" fill="#2f80ed">mabe02</text>
       </a>
       <text x="54" y="34" font-size="11" fill="#434d58" opacity="0.6">Stack Overflow</text></g><line x1="0" y1="56" x2="250" y2="56" stroke="#434d58" stroke-width="0.5" opacity="0.15"/>
