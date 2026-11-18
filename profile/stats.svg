@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Mauro Berlanda's GitHub Stats, Rank: A</title>
-        <desc id="descId">Total Stars Earned: 45, Total Commits  (last year) : 1985, Total PRs: 1755, Total Issues: 56, Contributed to (last year): 0</desc>
+        <desc id="descId">Total Stars Earned: 45, Total Commits  (last year) : 2007, Total PRs: 1768, Total Issues: 55, Contributed to (last year): 0</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 54.230518092016396;
+        stroke-dashoffset: 54.26325631347712;
       }
     }
   
@@ -207,7 +207,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >56</text>
+      >55</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
